@@ -1,0 +1,90 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kabirsaudagar/Kabirsaudagar/blob/main/Loop.pynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(5):\n",
+        "    print(i)\n",
+        "\n",
+        "for i in range(2, 10, 2):\n",
+        "    print(i)"
+      ],
+      "metadata": {
+        "id": "niLtsN8RL0gt",
+        "outputId": "bcc6f492-d883-41c1-da55-3df713bde7ca",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n",
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items = [\"Rice\", \"Milk\", \"Bread\"]\n",
+        "prices = [50, 40, 30]\n",
+        "for i in range(len(items)):\n",
+        "    print(items[i], \"-> Rs.\", prices[i])"
+      ],
+      "metadata": {
+        "id": "QXfVLjtJML0c",
+        "outputId": "a59cd1f8-ed55-482f-f344-f2ae248ba2d4",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Rice -> Rs. 50\n",
+            "Milk -> Rs. 40\n",
+            "Bread -> Rs. 30\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
